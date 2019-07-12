@@ -1,0 +1,16 @@
+{
+    "name": "narcoticfresh/playlist-generator",
+    "description": "Small script to create playlists for MPD",
+    "type": "library",
+    "require": {
+        "symfony/finder": "^4.3",
+        "symfony/yaml": "^4.3",
+        "symfony/filesystem": "^4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "PlaylistGenerator\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
